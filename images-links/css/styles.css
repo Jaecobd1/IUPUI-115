@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+img {
+  width: 200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+  color: black;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url(../images/Tree.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  width: 100%;
+  height: 100%;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second .container {
+  width: 80%;
+  /* background-color: darkgreen; */
+  display: flex;
+  height: 200px;
+}
+
+.second .container .left {
+  width: 50%;
+  /* background-color: darkkhaki; */
+}
+.second .container .right {
+  width: 50%;
+  /* background-color: darkred; */
+}

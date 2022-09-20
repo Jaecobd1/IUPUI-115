@@ -1,0 +1,66 @@
+.redOne {
+  height: 150px;
+  background-color: #990000;
+  width: 150px;
+}
+.blueOne {
+  height: 200px;
+  width: 200px;
+  background-color: #006699;
+}
+.greenOne {
+  height: 100px;
+  width: 100px;
+  background-color: #00cc66;
+}
+
+.containerOne {
+  display: flex;
+}
+.containerTwo {
+  display: flex;
+  justify-content: center;
+}
+
+.redTwo {
+  height: 300px;
+  width: 300px;
+  background-color: #990000;
+}
+.blueTwo {
+  height: 400px;
+  width: 400px;
+  background-color: #006699;
+  margin-left: 250px;
+}
+.greenTwo {
+  height: 150px;
+  width: 150px;
+  background-color: #00cc66;
+  margin-top: -150px;
+  margin-left: 225px;
+}
+.containerThree {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.redThree {
+  height: 300px;
+  width: 300px;
+  background-color: #990000;
+}
+.blueThree {
+  height: 400px;
+  width: 400px;
+  background-color: #006699;
+}
+.greenThree {
+  height: 150px;
+  width: 150px;
+  background-color: #00cc66;
+}
+img {
+  height: 50%;
+  width: 50%;
+}

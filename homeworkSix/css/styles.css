@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 19px;
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-BI;
+  src: url(fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Roboto-B;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Lora-I;
+  src: url(fonts/Lora-Italic.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+nav {
+  height: 155px;
+  width: 1366px;
+  /* background-color: red; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .links {
+}
+nav .links a {
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-right: 50px;
+  color: black;
+  font-family: Roboto-Light;
+}
+
+nav .links a.active {
+  color: #ef767a;
+  font-family: Roboto-BI;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+
+nav .logo {
+  color: #ef767a;
+  font-family: Roboto-B;
+  letter-spacing: 1.6px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.container {
+  height: 155px;
+  width: 1366px;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 16px;
+  font-family: Roboto-Light;
+  letter-spacing: 1.6px;
+}
+
+.content {
+  width: 1366px;
+  min-height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Lora-I;
+  letter-spacing: 1.6px;
+  font-size: 16px;
+}
+
+.content-center {
+  width: 1366px;
+  min-height: 200px;
+  /* background-color: coral; */
+}
+
+.owner-product {
+  width: 818px;
+  min-height: 100px;
+  /* background-color: brown; */
+  margin: 0 auto 20px;
+  display: flex;
+}
+.owner-product .left {
+  width: 224px;
+  /* background-color: bisque; */
+}
+.owner-product .right {
+  width: 513px;
+  /* background-color: cadetblue; */
+  padding-top: 10px;
+}
+
+.owner-product .right h4 {
+  padding: 39px 0 39px;
+  font-family: Roboto-BI;
+  font-size: 30px;
+  color: #ef767a;
+}
+
+#owner {
+  width: 224px;
+  height: 224px;
+  background-size: cover;
+  border-radius: 50%;
+  background-image: url(../images/owner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#co-owner {
+  width: 224px;
+  height: 224px;
+  background-size: cover;
+  border-radius: 50%;
+  background-image: url(../images/co-owner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  width: 1366px;
+  height: 330px;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto 50px;
+}
+
+.content .left {
+  width: 513px;
+}
+
+.content .right {
+  width: 513px;
+}
+
+.content .left span {
+  width: 513px;
+}
+.content .right span {
+  width: 513;
+}
+
+.content .form {
+  width: 1014px;
+
+  margin: 0 auto;
+}
+.content .form input {
+  width: 1014px;
+  border: 3px solid #ef767a;
+  opacity: 1;
+  height: 81px;
+  margin: 33px 0 101px 0;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.content .form button {
+  background-color: #ef767a;
+  border-radius: 38px;
+  width: 246px;
+  height: 76px;
+  margin: 10px auto;
+  text-transform: uppercase;
+  font-family: Roboto-Light;
+  font-size: 26px;
+  color: #ffffff;
+}
+.buttonbox {
+  width: 1014px;
+  display: flex;
+}
+
+.content .form label {
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+#Butter-Almond-Soap {
+  width: 224px;
+  height: 224px;
+  background-size: cover;
+  border-radius: 50%;
+  background-image: url(../images/butter-almond-soap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Rose-Gold {
+  width: 224px;
+  height: 224px;
+  background-size: cover;
+  border-radius: 50%;
+  background-image: url(../images/rose-gold-soap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Luxury {
+  width: 224px;
+  height: 224px;
+  background-size: cover;
+  border-radius: 50%;
+  background-image: url(../images/luxury-soap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sideways {
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  font-size: 80px;
+  font-family: Roboto-B;
+}
+
+.sideways div {
+  transform: rotate(-90deg);
+  margin-top: 475px;
+  margin-right: 100px;
+  letter-spacing: 40px;
+  color: #ef767a;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+section {
+  min-height: 300px;
+  margin: 0 auto;
+  position: relative;
+  width: 1366px;
+}

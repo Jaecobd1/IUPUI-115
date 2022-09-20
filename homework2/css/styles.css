@@ -1,0 +1,14 @@
+div {
+  background-color: gainsboro;
+}
+
+.pageOneSectionTwo {
+  width: 50%;
+}
+.pageOneSectionThree {
+  width: 100px;
+}
+
+p:hover {
+  background-color: darkgoldenrod;
+}

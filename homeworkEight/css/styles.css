@@ -1,0 +1,350 @@
+/* import minion pro */
+@import url("https://use.typekit.net/xav2xhk.css");
+/* Boiler Plate */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-family: montserrat;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* fontaces */
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: montserrat-light;
+  src: url(fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: marshAndChoc;
+  src: url(fonts/mandC.ttf);
+}
+
+/* Custom css */
+
+nav {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100px;
+}
+nav .container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+
+  height: 100px;
+  width: 1280px;
+  margin: 0 auto;
+}
+nav .left h1 {
+  padding-left: 50px;
+}
+nav .left h1 {
+  font-size: 36px;
+  color: #c38d94;
+}
+nav .right {
+  padding-right: 50px;
+}
+nav .right a {
+  padding: 0 25px;
+  font-family: montserrat;
+  font-size: 16px;
+  text-decoration: none;
+  color: #c38d94;
+}
+section {
+  margin: 0 auto;
+  width: 1280px;
+  min-height: 700px;
+  height: 100%;
+}
+.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(86, 86, 113, 0.75),
+      rgba(86, 86, 113, 0.75)
+    ),
+    url(../images/hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero .callout {
+  color: #c38d94;
+  font-size: 60px;
+  width: 460px;
+  text-align: right;
+  margin-right: 76px;
+  font-family: montserrat-light;
+}
+.hero .callout span {
+  font-family: marshAndChoc;
+}
+.about {
+  padding: 50px;
+}
+.products {
+  padding: 0 50px 50px 50px;
+}
+.about .aboutContent {
+  height: 600px;
+  background-color: #c38d94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 287px;
+}
+
+.about .aboutContent .title h1 {
+  font-size: 30px;
+  margin: 156px auto 52px auto;
+  color: #fff;
+  font-family: montserrat;
+}
+.about .aboutContent .content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+  font-family: minion-pro, serif;
+}
+.about .subContent {
+  height: 250px;
+  background-color: #cc9ea4;
+}
+.about .subContent .left .chefOneImg {
+  height: 114px;
+  width: 114px;
+  background-image: url(../images/chef-one.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+.about .subContent .right .chefTwoImg {
+  height: 114px;
+  width: 114px;
+  background-image: url(../images/chef-two.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.about .subContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about .subContent .left {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about .subContent .left .chefOneContainer {
+  width: 350px;
+  padding-left: 32px;
+}
+.about .subContent .right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about .subContent .right .chefTwoContainer {
+  width: 350px;
+  padding-left: 32px;
+}
+
+.about .subContent h1 {
+  font-family: montserrat;
+  font-size: 22px;
+  color: #fff;
+}
+
+.chefOneDescription p {
+  font-family: minion-pro;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  width: 290px;
+}
+.chefTwoDescription p {
+  font-family: minion-pro;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  width: 290px;
+}
+
+.about .subContent span {
+  font-family: marshAndChoc;
+  font-size: 25px;
+  color: #fff;
+}
+
+.products .productContent {
+  height: 700px;
+  background-color: #a76571;
+}
+.products .subContent {
+  height: 250px;
+  background-color: #c38d94;
+  display: flex;
+  justify-content: space-around;
+}
+.productContent .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  background-color: #565676;
+  align-items: center;
+}
+.contact .title {
+  font-size: 30px;
+  width: 100%;
+  padding-top: 109px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.contact .title h1 {
+  font-size: 32px;
+}
+.contact form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact input {
+  width: 567px;
+  height: 53px;
+  background-color: #565676;
+  border: 3px solid #fff;
+  padding: 22px 0;
+}
+.contact label {
+  min-width: 47px;
+  font-family: minion-pro;
+  width: 567px;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+  margin: 16px 0;
+}
+.contact button {
+  margin: 45px 0;
+  width: 237px;
+  height: 53px;
+  background-color: #565676;
+  border: 3px solid #fff;
+  border-radius: 27px;
+  font-family: minion-pro;
+  font-size: 16px;
+  color: #fff;
+}
+
+.products .productContent .title h1 {
+  height: 37px;
+  font-family: montserrat;
+  font-size: 30px;
+  color: #fff;
+  padding-top: 75px;
+}
+
+.products .productContent .images {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+  margin-top: -550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Image Sizing */
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+  height: 204px;
+  width: 204px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+/* Importing Images */
+.img1,
+.img6 {
+  background-image: linear-gradient(
+      to right,
+      rgba(167, 101, 113, 0.6),
+      rgba(167, 101, 113, 0.6)
+    ),
+    url(../images/cookies.jpeg);
+}
+.img2,
+.img5 {
+  background-image: linear-gradient(
+      to right,
+      rgba(167, 101, 113, 0.6),
+      rgba(167, 101, 113, 0.6)
+    ),
+    url(../images/cookies-cream.jpeg);
+}
+.img3,
+.img4 {
+  background-image: linear-gradient(
+      to right,
+      rgba(167, 101, 113, 0.6),
+      rgba(167, 101, 113, 0.6)
+    ),
+    url(../images/brownies.jpeg);
+}
+
+.products .subContent .left,
+.products .subContent .middle,
+.products .subContent .right {
+  width: 240px;
+  padding-top: 56px;
+  font-family: minion-pro;
+  font-style: italic;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}

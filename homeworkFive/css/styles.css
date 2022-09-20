@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #333;
+  padding: 10px 0;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.container {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 10px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+}
+.header {
+  background-image: url(../images/Oliver.jpg);
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#Building {
+  width: 20%;
+}
+#sunset {
+  width: 40%;
+}
+#gif {
+  width: 40%;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.bio {
+  width: 400px;
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+
+#services {
+  flex-direction: row-reverse;
+}
+
+#bio {
+  height: 200px;
+  border-radius: 25px;
+}
+
+#name {
+  width: 100px;
+}
+#email {
+  width: 125px;
+}
+#message {
+  width: 200px;
+}
